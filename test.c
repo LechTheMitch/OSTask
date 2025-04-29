@@ -2,7 +2,7 @@
 
 static void
 print_hello (GtkWidget *widget,
-             gpointer   data)
+            gpointer   data)
 {
   g_print ("Hello World\n");
 }
