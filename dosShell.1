@@ -1,0 +1,32 @@
+.TH SHELL_SIM 1 "April 2025" "Shell Simulation" "User Commands"
+.SH NAME
+shell_sim \- DOS-to-Linux shell simulation
+.SH SYNOPSIS
+.B shell_sim
+.SH DESCRIPTION
+This program simulates a shell that accepts DOS commands
+and maps them to Linux equivalents using an external mapping file.
+
+Commands are read from 'command_mapping.txt'.
+
+.SH USAGE
+.TP
+Run the program:
+.B ./shell_sim
+
+.TP
+Exit the program via menu option.
+
+.SH COMMAND MAPPING
+Example mapping in
+.I command_mapping.txt
+:
+.TP
+dir=ls
+copy=cp
+del=rm
+move=mv
+type=cat
+
+.SH AUTHOR
+Written for Operating Systems Task 4.
