@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" style="-fx-background-color: #FAFAFA;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomeController">
+   <children>
+      <Label layoutX="147.0" layoutY="53.0" prefHeight="58.0" prefWidth="620.0" text="Priority Scheduling Simulation" textFill="#333333">
+         <font>
+            <Font name="Calibri Bold" size="40.0" />
+         </font>
+      </Label>
+      <Pane layoutX="50.0" layoutY="200.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-border-color: #E0E0E0;">
+         <children>
+            <Label contentDisplay="CENTER" layoutX="60.0" layoutY="185.0" text="Start Simulation" textFill="#666666">
+               <font>
+                  <Font name="SansSerif Bold" size="24.0" />
+               </font>
+            </Label>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/Images/simulation.png" />
+               </image></ImageView>
+            <Button fx:id="SMButton" layoutX="75.0" layoutY="236.0" mnemonicParsing="false" onAction="#startSimulation" prefHeight="50.0" prefWidth="150.0" style="-fx-background-radius: 10px; -fx-background-color: #4A90E2;" text="Click Here" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font></Button>
+         </children>
+      </Pane>
+      <Pane layoutX="450.0" layoutY="200.0" prefHeight="300.0" prefWidth="300.0" style="-fx-background-color: #FFFFFF; -fx-background-radius: 10px; -fx-border-color: #E0E0E0;">
+         <children>
+            <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="75.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../Resources/Images/tools.png" />
+               </image></ImageView>
+            <Label alignment="CENTER" contentDisplay="CENTER" layoutX="68.0" layoutY="185.0" text="Options&amp;Help" textFill="#666666">
+               <font>
+                  <Font name="SansSerif Bold" size="24.0" />
+               </font>
+            </Label>
+            <Button fx:id="OHButton" layoutX="73.0" layoutY="236.0" mnemonicParsing="false" onAction="#openOptionsMenu" prefHeight="50.0" prefWidth="150.0" style="-fx-background-radius: 10px; -fx-background-color: #F2994A;" text="Click Here" textFill="WHITE">
+               <font>
+                  <Font name="SansSerif Bold" size="18.0" />
+               </font>
+            </Button>
+         </children>
+      </Pane>
+   </children>
+</AnchorPane>
