@@ -1,0 +1,21 @@
+[Desktop Entry]
+Categories=AudioVideo;Audio;
+Comment[de_DE]=
+Comment=
+Exec=./dosShellGUI
+GenericName[de_DE]=
+GenericName=
+Icon=preferences-desktop
+Keywords=alsamixer;alsa;mixer;sound;volume;
+MimeType=
+Name[de_DE]=OS Task
+Name=OS Task
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
